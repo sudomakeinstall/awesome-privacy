@@ -1,4 +1,6 @@
-# Beginner
+This awesome list is aimed at bringing us all up to date on basic, common sense practices for maintaining personal security and privacy online.  This is targeted at anyone who uses the internet and is concerned about their own online presence--not for infosec experts or people trying to secure a website.  Feel free to send a pull request if you spot any errors or omissions!
+
+# Tools
 
 ## Password Managers
 
@@ -36,32 +38,22 @@ In addition to built-in add blockers, browser plugins have been built which bloc
 
 Since the US congress has voted to relax regulations preventing internet service providers (ISPs) from selling users' browsing histories, VPNs have become more important.  Choosing a VPN is a complicated topic, and may require a paid service depending on your circumstances.  But if you're just a casual user seeking to stick it to Comcast, check out [Opera](https://www.opera.com).  This lesser-known browser (a competetor to Firefox, Chrome, etc) has a built-in VPN called SurfEasy.  Currently, SurfEasy offers unlimited data use and pledges not to keep logs.  (There's got to be a catch somewhere, but I haven't found it yet.)  Although a VPN provides you with an IP address distinct from your own, it is likely that you will initially be ``leaking'' your true IP address due a protocol called WebRTC which is built into most browsers.  Luckily, you can prevent this using Privacy Badger by going to Settings, then General Settings, and checking ``Prevent WebRTC from leaking local IP address.''
 
-# Intermediate
+## Domain Name System (DNS) Encryption
 
-## DNS Encryption
+DNS is the system by which a URL such as www.google.com is translated into an IP address such as 172.217.4.142.  Unfortunately, this protocol does not encrypt or authenticate the transaction, leaving us open to a number of security vulnerabilities.  [DNSCrypt](https://www.dnscrypt.org) solves this problem.
 
-- DNSCrypt
-- OpenDNS
+## Audit Your Security
 
-# Mail Clients
-- Proton Mail
+There are a large number of websites where you can audit your security to see what information you might be leaking.  Here are just a few:
 
-# IPv4 vs IPv6
-- https://ipv6test.google.com
-- https://www.google.com/intl/en/ipv6/faq.html
-
-# IOT
-- showdan.io
-
-# Website Administration
-- letsencrypt
-- 2FA for registrar
-- Dane DNS
-
-# Disable WebRTC
-- https://whoer.net/blog/article/how-to-disable-webrtc-in-various-browsers/
-
-# Check if you are leaking your IP
+- https://www.ipleak.net
+- https://browserleaks.com
 - https://whoer.net
 
-# Advanced
+## Podcasts!
+
+If you really want to ensure that you never get another good night's sleep, there are a number of excellent podcasts out there which will alert you to the latest and greatest cyber threats to our fragile way of life.
+
+- [Security Now with Steve Gibson](https://www.grc.com/securitynow.htm)
+- [Risky.Biz](https://risky.biz/netcasts/risky-business/)
+- [The CyberWire](https://thecyberwire.com)

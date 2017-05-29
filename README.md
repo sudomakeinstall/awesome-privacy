@@ -1,7 +1,5 @@
 This awesome list is aimed at bringing us all up to date on basic, common sense practices for maintaining personal security and privacy online.  This is targeted at anyone who uses the internet and is concerned about their own online presence--not for infosec experts or people trying to secure a website.  Feel free to send a pull request if you spot any errors or omissions!
 
-# Tools
-
 ## Password Managers
 
 To the best of your ability, all your passwords should be unique and high entropy.  That is, passwords should be long strings of complete gibberish, and should not be shared between services.  Because it is infeasible for any human to remember even *one* high entropy password (nevermind dozens), a password manager is absolutely essential.  [LastPass](https://www.lastpass.com) is a popular option with an excellent security record.  [Enpass](https://www.enpass.io) is a welcome alternative for those who prefer their passwords to be stored locally.

@@ -25,7 +25,7 @@ Web communication normally occurs over either HTTP (the Hypertext Transfer Proto
 Browsers generally have a few simple settings which can be updated to increase privacy.  Specifically:
 
 - Enable any built-in add blockers.
-- Send a ``Do Not Track'' message with all requests.
+- Send a "Do Not Track" message with all requests.
 - Block third party cookies.
 
 ## Third Party Add Blockers
@@ -34,7 +34,7 @@ In addition to built-in add blockers, browser plugins have been built which bloc
 
 ## Virtual Private Network (VPN)
 
-Since the US congress has voted to [relax regulations](https://motherboard.vice.com/en_us/article/senate-republicans-vote-to-allow-isps-to-sell-your-private-data) preventing internet service providers (ISPs) from selling users' browsing histories, VPNs have become more important.  Choosing a VPN is a complicated topic, and may require a paid service depending on your circumstances.  But if you're just a casual user seeking to stick it to Comcast, check out [Opera](https://www.opera.com).  This lesser-known browser (a competetor to Firefox, Chrome, etc) has a built-in VPN called SurfEasy.  Currently, SurfEasy offers unlimited data use and pledges not to keep logs.  (There's got to be a catch somewhere, but I haven't found it yet.)  Although a VPN provides you with an IP address distinct from your own, it is likely that you will initially be ``leaking'' your true IP address due a protocol called WebRTC which is built into most browsers.  Luckily, you can prevent this using Privacy Badger by going to Settings, then General Settings, and checking ``Prevent WebRTC from leaking local IP address.''
+Since the US congress has voted to [relax regulations](https://motherboard.vice.com/en_us/article/senate-republicans-vote-to-allow-isps-to-sell-your-private-data) preventing internet service providers (ISPs) from selling users' browsing histories, VPNs have become more important.  Choosing a VPN is a complicated topic, and may require a paid service depending on your circumstances.  But if you're just a casual user seeking to stick it to Comcast, check out [Opera](https://www.opera.com).  This lesser-known browser (a competetor to Firefox, Chrome, etc) has a built-in VPN called SurfEasy.  Currently, SurfEasy offers unlimited data use and pledges not to keep logs.  (There's got to be a catch somewhere, but I haven't found it yet.)  Although a VPN provides you with an IP address distinct from your own, it is likely that you will initially be leaking your true IP address due a protocol called WebRTC which is built into most browsers.  Luckily, you can prevent this using Privacy Badger by going to Settings, then General Settings, and checking "Prevent WebRTC from leaking local IP address."
 
 ## Domain Name System (DNS) Encryption
 

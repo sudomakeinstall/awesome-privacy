@@ -2,11 +2,11 @@ This awesome list is aimed at bringing us all up to date on basic, common sense 
 
 ## Password Managers
 
-To the best of your ability, all your passwords should be unique and high entropy.  That is, passwords should be long strings of complete gibberish, and should not be shared between services.  Because it is infeasible for any human to remember even *one* high entropy password (nevermind dozens), a password manager is absolutely essential.  [LastPass](https://www.lastpass.com) is a popular option with an excellent security record.  [Enpass](https://www.enpass.io) is a welcome alternative for those who prefer their passwords to be stored locally.
+To the best of your ability, all your passwords should be unique and high entropy.  That is, passwords should be long strings of complete gibberish, and should not be shared between services.  Because it is infeasible for any human to remember even *one* high entropy password (nevermind dozens), a password manager is absolutely essential.  [LastPass](https://www.lastpass.com) is a popular option with an excellent security record.  [Enpass](https://www.enpass.io) and [KeePassX](https://www.keepassx.org) are welcome alternatives for those who prefer their passwords to be stored locally.
 
 ## Two Factor Authentication
 
-Now that you've got complex, unique passwords for all your logins, it's time to set up two factor authentication.  Check whether the service you're using provides two factor authentication on https://twofactorauth.org, and complain about it if it doesn't.  And when you *do* set up two factor authentication, make sure to use a one-time, time-based authentication token, such as with the [Google Authenticator App](https://support.google.com/accounts/answer/1066447?hl=en).  This is advantageous over SMS because (a) SMS may be unavailable if you are travelling or have poor service, and (b) because SMS is subject to its own security vulnerabilities.
+Now that you've got complex, unique passwords for all your logins, it's time to set up two factor authentication (2FA).  Check whether the service you're using provides 2FA on https://twofactorauth.org, and complain about it if it doesn't.  And when you *do* set up two factor authentication, make sure to use a one-time, time-based authentication token, such as with the [Google Authenticator App](https://support.google.com/accounts/answer/1066447?hl=en) or [Authy](https://authy.com).  This is advantageous over SMS because (a) SMS may be unavailable if you are travelling or have poor service, and (b) because SMS is subject to its own security vulnerabilities.
 
 ## Text Messaging
 
@@ -32,18 +32,24 @@ Browsers generally have a few simple settings which can be updated to increase p
 
 In addition to built-in add blockers, browser plugins have been built which block adds and tracking code.  [UBlock Origin](https://github.com/gorhill/uBlock/blob/master/README.md) and [Privacy Badger](https://www.eff.org/privacybadger) are widely used examples which can be used together or separately.
 
-## Virtual Private Network (VPN)
-
-Since the US congress has voted to [relax regulations](https://motherboard.vice.com/en_us/article/senate-republicans-vote-to-allow-isps-to-sell-your-private-data) preventing internet service providers (ISPs) from selling users' browsing histories, VPNs have become more important.  Choosing a VPN is a complicated topic, and may require a paid service depending on your circumstances.  But if you're just a casual user seeking to stick it to Comcast, check out [Opera](https://www.opera.com).  This lesser-known browser (a competetor to Firefox, Chrome, etc) has a built-in VPN called SurfEasy.  Currently, SurfEasy offers unlimited data use and pledges not to keep logs.  (There's got to be a catch somewhere, but I haven't found it yet.)  Although a VPN provides you with an IP address distinct from your own, it is likely that you will initially be leaking your true IP address due a protocol called WebRTC which is built into most browsers.  Luckily, you can prevent this using Privacy Badger by going to Settings, then General Settings, and checking "Prevent WebRTC from leaking local IP address."
-
 ## Domain Name System (DNS) Encryption
 
 DNS is the system by which a URL such as www.google.com is translated into an IP address such as 172.217.4.142.  Unfortunately, this protocol does not encrypt or authenticate the transaction, leaving us open to a number of security vulnerabilities.  [DNSCrypt](https://www.dnscrypt.org) solves this problem.
+
+## Virtual Private Network (VPN)
+
+Since the US congress has voted to [relax regulations](https://motherboard.vice.com/en_us/article/senate-republicans-vote-to-allow-isps-to-sell-your-private-data) preventing internet service providers (ISPs) from selling users' browsing histories, VPNs have become more important.  Choosing a VPN is a [complicated topic](https://arstechnica.com/security/2016/06/aiming-for-anonymity-ars-assesses-the-state-of-vpns-in-2016/), and may require a paid service depending on your circumstances.  A detailed comparison of the many available options can be found [here](https://thatoneprivacysite.net/vpn-section/).  But if you're just a casual user seeking to stick it to Comcast, check out [Opera](https://www.opera.com).  This lesser-known browser (a competetor to Firefox, Chrome, etc) has a built-in VPN called SurfEasy.  Currently, SurfEasy offers unlimited data use and pledges not to keep logs.  (There's got to be a catch somewhere, but I haven't found it yet.)
+
+Although a VPN provides you with an IP address distinct from your own, it is likely that you will initially be leaking your true IP address due a protocol called WebRTC which is built into most browsers.  Luckily, you can prevent this using Privacy Badger by going to Settings, then General Settings, and checking "Prevent WebRTC from leaking local IP address," or by installing the WebRTC Network Limiter browser extension.  The success of these techniques may differ depending on the browser you are using, so make sure to check that your ip is hidden at https://ipleak.net.
+
+It is important to recognize that by using a secure VPN you are maintaining privacy from your ISP, but still must trust your VPN provider.  An intriguing solution is to [host your own personal VPN](https://arstechnica.com/gadgets/2017/05/how-to-build-your-own-vpn-if-youre-rightfully-wary-of-commercial-options/), trading some technical effort and a small monthly fee for piece of mind.
 
 ## Audit Your Security
 
 There are a large number of websites where you can audit your security to see what information you might be leaking.  Here are just a few:
 
+- https://panopticlick.eff.org
+- https://www.dnsleaktest.com
 - https://www.ipleak.net
 - https://browserleaks.com
 - https://whoer.net

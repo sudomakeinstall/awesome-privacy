@@ -24,6 +24,22 @@ Google collects an incredible amount of information about you--go to https://mya
 
 Web communication normally occurs over either HTTP (the Hypertext Transfer Protocol) or HTTPS (HTTP over Transport Layer Security).  HTTP communications are unencrypted, whereas HTTPS communications are encrypted.  It is generally advisable to use HTTPS anywhere it is available, *especially* when submitting sensitive information such as usernames and passwords.  [HTTPS Everywhere](https://www.eff.org/https-everywhere) is a browser plugin which attempts to force an HTTPS connection, and which can be set to block communications over HTTP entirely. 
 
+## Google - Privacy and Security
+
+Google collects an enormous amount of data from us, but also provides an excellent interface for auditing and adjusting that tracking.  The launching point for all this is https://myaccount.google.com, which has a number of useful links, including:
+
+- https://myactivity.google.com/myactivity : Audit your data, and remove anything you prefer wasn't there.
+- https://myaccount.google.com/secureaccount : Do a security checkup.
+- https://myaccount.google.com/privacycheckup : Do a privacy checkup.
+
+## Facebook - Privacy and Security
+
+Since your data is more integral to the experience of Facebook, it is generally not possible to delete your data without also deleting your account.  However, Facebook *does* allow you to audit your data and perform privacy and security checkups, similar to Google.  Here are a few useful links:
+
+- https://www.facebook.com/help/1701730696756992/ : Audit your data.
+- https://www.facebook.com/help/securitycheckup : Perform a security checkup.
+- https://www.facebook.com/settings?tab=privacy : Check your privacy settings.
+
 ## Browser Settings
 
 Browsers generally have a few simple settings which can be updated to increase privacy.  Specifically:

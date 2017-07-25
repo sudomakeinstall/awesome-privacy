@@ -32,6 +32,10 @@ Google collects an enormous amount of data from us, but also provides an excelle
 - https://myaccount.google.com/secureaccount : Do a security checkup.
 - https://myaccount.google.com/privacycheckup : Do a privacy checkup.
 
+Google also has a browser add-on which allows you to opt-out of Google Analytics.
+
+- https://tools.google.com/dlpage/gaoptout
+
 ## Facebook - Privacy and Security
 
 Since your data is more integral to the experience of Facebook, it is generally not possible to delete your data without also deleting your account.  However, Facebook *does* allow you to audit your data and perform privacy and security checkups, similar to Google.  Here are a few useful links:

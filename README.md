@@ -24,6 +24,14 @@ Google collects an incredible amount of information about you--go to https://mya
 
 Web communication normally occurs over either HTTP (the Hypertext Transfer Protocol) or HTTPS (HTTP over Transport Layer Security).  HTTP communications are unencrypted, whereas HTTPS communications are encrypted.  It is generally advisable to use HTTPS anywhere it is available, *especially* when submitting sensitive information such as usernames and passwords.  [HTTPS Everywhere](https://www.eff.org/https-everywhere) is a browser plugin which attempts to force an HTTPS connection, and which can be set to block communications over HTTP entirely. 
 
+## Use a Firewall
+
+A ``firewall'' is a program which monitors the incoming and outgoing traffic on your network, and blocks requests based on rules set during its configuration.  Properly configured, a firewall can protect against some (but not all) attempts to remotely access your computer.
+
+- [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall)
+- [OS X](https://support.apple.com/en-us/HT201642)
+- [Windows](https://support.microsoft.com/en-us/instantanswers/c9955ad9-1239-4cb2-988c-982f851617ed/turn-windows-firewall-on-or-off)
+
 ## Google - Privacy and Security
 
 Google collects an enormous amount of data from us, but also provides an excellent interface for auditing and adjusting that tracking.  The launching point for all this is https://myaccount.google.com, which has a number of useful links, including:

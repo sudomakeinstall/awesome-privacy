@@ -56,13 +56,13 @@ Since your data is more integral to the experience of Facebook, it is generally 
 
 Browsers generally have a few simple settings which can be updated to increase privacy.  Specifically:
 
-- Enable any built-in add blockers.
+- Enable any built-in ad blockers.
 - Send a "Do Not Track" message with all requests.
 - Block third party cookies.
 
-## Third Party Add Blockers
+## Third Party Ad Blockers
 
-In addition to built-in add blockers, browser plugins have been built which block adds and tracking code.  [UBlock Origin](https://github.com/gorhill/uBlock/blob/master/README.md) and [Privacy Badger](https://www.eff.org/privacybadger) are widely used examples which can be used together or separately.
+In addition to built-in ad blockers, browser plugins have been built which block ads and tracking code.  [UBlock Origin](https://github.com/gorhill/uBlock/blob/master/README.md) and [Privacy Badger](https://www.eff.org/privacybadger) are widely used examples which can be used together or separately.
 
 ## Domain Name System (DNS) Encryption
 

@@ -4,6 +4,14 @@ This awesome list is aimed at bringing us all up to date on basic, common sense 
 
 To the best of your ability, all your passwords should be unique and high entropy.  That is, passwords should be long strings of complete gibberish, and should not be shared between services.  Because it is infeasible for any human to remember even *one* high entropy password (nevermind dozens), a password manager is absolutely essential.  [LastPass](https://www.lastpass.com) is a popular option with an excellent security record.  [Enpass](https://www.enpass.io) and [KeePassX](https://www.keepassx.org) are welcome alternatives for those who prefer their passwords to be stored locally.
 
+## Generate Strong (Random) Passwords
+
+Now that you're using a password manager, the length and complexity of the passwords you use are no longer limited by what you can easily remember.  The best passwords are both long and completely random.  There are plenty of resources you can use to generate these.  For example, the [Gibson Research Corporation](https://www.grc.com/passwords.htm) has a nice page for generating high-quality passwords; an alternative from the terminal is to use the commandline utility `apg`:
+
+```
+$ apg -n 1 -m 64 -x 64 -a 1
+```
+
 ## Two Factor Authentication
 
 Now that you've got complex, unique passwords for all your logins, it's time to set up two factor authentication (2FA).  The idea behind 2FA is that two pieces of information must be supplied to authenticate an account--usually something you know (a password) and something you have (a device).  Security is increased because both these things need to be compromised for someone to access your account.

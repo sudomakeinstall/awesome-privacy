@@ -84,6 +84,10 @@ Although a VPN provides you with an IP address distinct from your own, it is lik
 
 It is important to recognize that by using a secure VPN you are maintaining privacy from your ISP, but still must trust your VPN provider.  An intriguing solution is to [host your own personal VPN](https://arstechnica.com/gadgets/2017/05/how-to-build-your-own-vpn-if-youre-rightfully-wary-of-commercial-options/), trading some technical effort and a small monthly fee for piece of mind.
 
+## Credit Card Security
+
+- [privacy.com](https://privacy.com/) allows you to create "burner" credit cards which can have hard limits, be single-service, or even single-use.
+
 ## Audit Your Security
 
 There are a large number of websites where you can audit your security to see what information you might be leaking, and if any devices are visible on your network.  Here are just a few:

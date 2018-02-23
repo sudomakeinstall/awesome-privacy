@@ -86,13 +86,14 @@ It is important to recognize that by using a secure VPN you are maintaining priv
 
 ## Audit Your Security
 
-There are a large number of websites where you can audit your security to see what information you might be leaking.  Here are just a few:
+There are a large number of websites where you can audit your security to see what information you might be leaking, and if any devices are visible on your network.  Here are just a few:
 
 - https://panopticlick.eff.org
 - https://www.dnsleaktest.com
 - https://www.ipleak.net
 - https://browserleaks.com
 - https://whoer.net
+- https://iotscanner.bullguard.com/
 
 ## Podcasts!
 

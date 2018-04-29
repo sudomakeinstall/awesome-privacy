@@ -129,3 +129,4 @@ If you really want to ensure that you never get another good night's sleep, ther
 - [Risky.Biz](https://risky.biz/netcasts/risky-business/)
 - [The CyberWire](https://thecyberwire.com)
 - [Darknet Diaries](https://darknetdiaries.com)
+- [Smashing Security](https://www.smashingsecurity.com/)

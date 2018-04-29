@@ -107,7 +107,7 @@ Securing a home network is a complicated task, and is for the most part beyond t
 - Change the default password.  This _does_ help the security.  Many consumer routers use weak default credentials, which can be built into malicious tools which scan available networks attempting to log in.
 - Enable a firewall.
 - Update your router's firmware.  If you haven't done this in a while (or ever), there's a very good chance that your router has a known, unpatched security vulnerability.
-- Disable universal plug-and-play.
+- Disable universal plug-and-play (UPnP).
 - Segment your network.  I'd recommend having one network for your home computers, laptops, etc., one network for any internet connected appliances, and one for guests.  By putting your personal laptop on a separate network from, say, your [internet connected flower pot](https://www.amazon.com/Parrot-Pot-Smart-Connected-Flower/dp/B01KV0JCI4), you prevent someone from gaining control over said flower pot (pwning, in the modern parlance), and moving laterally to gain control over your computer.  If your router only allows you to have two network segments, consider putting any internet-of-things on your guest network (or, better yet, burning them in a fire).
 
 ## Audit Your Security

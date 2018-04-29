@@ -128,5 +128,6 @@ If you really want to ensure that you never get another good night's sleep, ther
 - [Security Now with Steve Gibson](https://www.grc.com/securitynow.htm)
 - [Risky.Biz](https://risky.biz/netcasts/risky-business/)
 - [The CyberWire](https://thecyberwire.com)
-- [Darknet Diaries](https://darknetdiaries.com)
+- [Troy Hunt](https://itunes.apple.com/au/podcast/troy-hunts-weekly-update-podcast/id1176454699)
 - [Smashing Security](https://www.smashingsecurity.com/)
+- [Darknet Diaries](https://darknetdiaries.com)

@@ -53,7 +53,7 @@ In addition to built-in ad blockers, browser plugins have been built which block
 
 ## Search Engines
 
-Google collects an incredible amount of information about you--go to https://myactivity.google.com and see for yourself.  Luckily, Google allows you to view and delete this information if you wish.  [DuckDuckGo](https://duckduckgo.com) is a competing search engine which pledges not to collect your data.  Set DuckDuckGo to be the default search engine on all browsers (and all devices).  You may also wish to sign out of the Google Maps and YouTube apps on mobile devices.
+Google collects an incredible amount of information about you--go to https://myactivity.google.com and https://passwords.google.com and see for yourself.  Luckily, Google allows you to view and delete this information if you wish.  [DuckDuckGo](https://duckduckgo.com) is a competing search engine which pledges not to collect your data.  Set DuckDuckGo to be the default search engine on all browsers (and all devices).  You may also wish to sign out of the Google Maps and YouTube apps on mobile devices.
 
 ## Use a Firewall
 

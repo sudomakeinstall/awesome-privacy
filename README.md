@@ -57,7 +57,7 @@ Google collects an incredible amount of information about you--go to https://mya
 
 ## Use a Firewall
 
-A ``firewall'' is a program which monitors the incoming and outgoing traffic on your network, and blocks requests based on rules set during its configuration.  Properly configured, a firewall can protect against some (but not all) attempts to remotely access your computer.
+A `firewall` is a program which monitors the incoming and outgoing traffic on your network, and blocks requests based on rules set during its configuration.  Properly configured, a firewall can protect against some (but not all) attempts to remotely access your computer.
 
 - [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall)
 - [OS X](https://support.apple.com/en-us/HT201642)

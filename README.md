@@ -49,7 +49,13 @@ Web communication normally occurs over either HTTP (the Hypertext Transfer Proto
 
 ### Third Party Ad Blockers
 
-In addition to built-in ad blockers, browser plugins have been built which block ads and tracking code.  [UBlock Origin](https://github.com/gorhill/uBlock/blob/master/README.md) and [Privacy Badger](https://www.eff.org/privacybadger) are widely used examples which can be used together or separately.  Although you've already disabled WebRTC in the browser (haven't you?), I'd recommend asking both UBlock Origin and Privacy Badger to prevent WebRTC from leaking local IP addresses (redundancy is generally a good thing).
+In addition to built-in ad blockers, browser plugins have been built which block ads and tracking code.
+[uBlock Origin](https://github.com/gorhill/uBlock/blob/master/README.md) and [Privacy Badger](https://www.eff.org/privacybadger) are widely used examples which can be used together or separately.
+Although you've already disabled WebRTC in the browser (haven't you?), I'd recommend asking both UBlock Origin and Privacy Badger to prevent WebRTC from leaking local IP addresses (redundancy is generally a good thing).
+I'd also recommend checking out [Ghostery](https://www.ghostery.com) and (uBlock Origin Extra](https://chrome.google.com/webstore/detail/ublock-origin-extra/pgdnlhfefecpicbbihgmbmffkjpaplco), which will extend the ad- and tracker-blocking utility.
+One last point: by default (in all browsers I've used), these extensions are disabled if you open up a private browsing tab.
+This makes excellent sense as a default--extensions have unrestricted access to your data, so opening up a supposedly "private" tab and giving all your extensions free run over it would be unintuitive and a violation of trust.
+However, in the case of extensions which *enhance* your privacy rather than *degrade* it, I would suggest enabling them in private mode (which you can do in your browser's settings).
 
 ## Search Engines
 

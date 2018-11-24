@@ -85,7 +85,14 @@ Since your data is more integral to the experience of Facebook, it is generally 
 
 ## Domain Name System (DNS) Encryption
 
-DNS is the system by which a URL such as www.google.com is translated into an IP address such as 172.217.4.142.  Unfortunately, this protocol does not encrypt or authenticate the transaction, leaving us open to a number of security vulnerabilities.  [DNSCrypt](https://www.dnscrypt.org) solves this problem.
+DNS is the system by which a URL (such as www.google.com) is translated into an IP address (such as 172.217.4.142).
+Unfortunately, this protocol does not encrypt or authenticate the transaction, leaving us open to a number of security and privacy vulnerabilities.
+A system called DNS over HTTPS (DoH) has been developed to encrypt DNS requests, but this system requires that both the client (your computer) and the DNS server support this protocol.
+Until recently, this has been a bit tricky to set up on the client side, and there haven't been many good options as far as DNS servers which support the protocol.
+Luckily, Cloudflare has released a DNS server [1.1.1.1](https://1.1.1.1) for free which supports DoH, and is faster than many competing DNS servers.
+Start off by configuring your phones, computers, and routers to use [Cloudflares DNS](https://1.1.1.1).
+Cloudflare has made the configuration of mobile devices to use DoH insanely easy using their [mobile apps](https://1.1.1.1).
+Configuration on the computer is slightly more complicated, but much less complicated than it used to be using Cloudflare's [proxy](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/).
 
 ## Virtual Private Network (VPN)
 
